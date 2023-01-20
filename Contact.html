@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact</title>
+</head>
+<body>
+    <h3>Contact Details</h3>
+    <p>
+        Fictional Address <br>
+        3652147890 <br>
+        mygmail@gmail.com
+    </p>
+
+    <hr noshade size="3" color="brown">
+
+    <!--
+    <form action="index.html">
+
+    </form>
+    -->
+
+    <form action="mailto:harshvardhanpatil27052001@gmail.com" method="post" enctype="text/plain">    <!--If you wont add "method='post'" attribute, your entered information on the form 
+                                                                                                         won't get copied at your "action" location.
+                                                                                                        Also the "enctype='text/plain'" is important here, otherwise the browser wont be 
+                                                                                                            able to copy the information fed on form in proper readable "English"-->
+        <label for="">Your Name : </label>
+        <input type="text" name="The Name : "> <br> 
+        <label for="">Your Mail : </label>
+        <input type="email" name="Mail ID : "> <br>
+        <label for="">Your Message : </label>
+        <center>
+            <textarea name="Message : " id="" cols="200" rows="5">
+
+            </textarea>
+        </center>
+        <input type="submit">
+    </form>
+</body>
+</html>
